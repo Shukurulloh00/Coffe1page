@@ -1,0 +1,42 @@
+.header_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 30px;
+ }
+
+
+
+ .header_list{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+ }
+
+ .header_item{
+    padding-left: 33px;
+ }
+
+ .header_link{
+    text-decoration: none;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    
+    color: #83888F;
+ }
+
+ .header_link:hover{
+   color: #3d5577;
+ }
+
+ .header_link:active{
+   color: black;
+ }
